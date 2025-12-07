@@ -1,0 +1,43 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'   # Runs every day at midnight
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake SVG
+        uses: Platane/snk@master
+        with:
+          github_user_name: harshrajput2804
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Push snake SVG to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Check if output branch exists
+          if git ls-remote --heads origin output | grep -q refs/heads/output; then
+            git checkout output
+          else
+            git checkout --orphan output
+            git rm -rf .
+          fi
+
+          mkdir -p dist
+          cp /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/dist/*.svg dist/
+
+          git add dist/*.svg
+          git commit -m "Update GitHub contribution snake" || echo "No changes"
+          git push origin output --force
