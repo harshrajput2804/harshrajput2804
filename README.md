@@ -52,4 +52,3 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 
 
 # Thanks for Visiting my GitHub Profile!
-<img src="https://i.gifer.com/39Cg.gif" width="300px" />
