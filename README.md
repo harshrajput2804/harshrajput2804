@@ -26,8 +26,5 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 ---
 ### Thanks for Visiting my GitHub Profile!
 
----
-![GitHub Snake](https://raw.githubusercontent.com/harshrajput2804/snk/output/github-contribution-grid-snake.svg)
-
 
 [![](https://visitcountpro.netlify.app/api?id=VishwaGauravIn&pretty=true)](https://visitcount.itsvg.in)
