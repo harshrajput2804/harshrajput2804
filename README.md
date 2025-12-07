@@ -24,4 +24,4 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 ![](https://github-contributor-stats.vercel.app/api?username=harshrajput2804&limit=5&theme=github_dark&combine_all_yearly_contributions=true)
 
 ---
-### Thanks for Visiting my GitHub Profile!
+# Thanks for Visiting my GitHub Profile!
