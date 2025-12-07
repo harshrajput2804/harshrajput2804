@@ -27,4 +27,4 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 ### Thanks for Visiting my GitHub Profile!
 
 
-[![](https://visitcountpro.netlify.app/api?id=VishwaGauravIn&pretty=true)](https://visitcount.itsvg.in)
+[![](https://harsh-rajput.vercel.app/api?id=VishwaGauravIn&pretty=true)](https://visitcount.itsvg.in)
