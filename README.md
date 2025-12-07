@@ -15,7 +15,7 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=harshrajput2804&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=DarshanPatel1506&theme=dark&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=harshrajput2804&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
@@ -25,6 +25,3 @@ I’m looking to collaborate on Web development, mobile app development, and ope
 
 ---
 ### Thanks for Visiting my GitHub Profile!
-
-
-[![](https://harsh-rajput.vercel.app/api?id=VishwaGauravIn&pretty=true)](https://visitcount.itsvg.in)
