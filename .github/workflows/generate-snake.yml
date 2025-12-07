@@ -3,7 +3,7 @@ name: Generate GitHub Contribution Snake
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'   # Runs every day at midnight
+    - cron: '0 0 * * *'
 
 jobs:
   generate:
@@ -28,7 +28,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Check if output branch exists
-          if git ls-remote --heads origin output | grep -q refs/heads/output; then
+          if git show-ref --verify --quiet refs/heads/output; then
             git checkout output
           else
             git checkout --orphan output
@@ -36,8 +36,8 @@ jobs:
           fi
 
           mkdir -p dist
-          cp /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/dist/*.svg dist/
+          cp dist/github-contribution-grid-snake.svg dist/
 
-          git add dist/*.svg
+          git add dist/github-contribution-grid-snake.svg
           git commit -m "Update GitHub contribution snake" || echo "No changes"
           git push origin output --force
