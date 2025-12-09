@@ -1,7 +1,8 @@
 <!-- Waving Hand GIF -->
 <p align="center">
-  <img src="https://tenor.com/r2dLhinjER5.gif" width="80" />
+  <img src="https://raw.githubusercontent.com/harshrajput2804/harshrajput2804/main/wave.gif" width="80" />
 </p>
+
 
 <h1 align="center">Hi there, I'm Harsh 👋</h1>
 
