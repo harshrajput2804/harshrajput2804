@@ -3,6 +3,7 @@
   <img src="https://raw.githubusercontent.com/harshrajput2804/harshrajput2804/main/wave.gif" width="80" />
 </p>
 
+
 <h1 align="center">Hi there, I'm Harsh 👋</h1>
 
 <p align="center">
@@ -85,6 +86,13 @@
 ## 🔝 Top Contributed Repositories
 <p>
   <img src="https://github-contributor-stats.vercel.app/api?username=harshrajput2804&limit=5&theme=github_dark&combine_all_yearly_contributions=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harshrajput2804/harshrajput2804/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
