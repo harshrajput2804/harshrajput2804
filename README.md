@@ -1,10 +1,6 @@
-<!-- Waving Hand GIF -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/harshrajput2804/harshrajput2804/main/wave.gif" width="80" />
-</p>
+<p align="center"><img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/></p>
 
-
-<h1 align="center">Hi there, I'm Harsh</h1>
+<h1 align="center">Hi there, I'm Harsh <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=harshrajput2804&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
@@ -13,10 +9,10 @@
 ---
 
 # 💫 About Me:
-- I love building **Web Apps, Mobile Apps, and Backend Systems**  
+- I love building **Web Apps and Backend Systems**  
 - Open to collaborating on development & open-source projects  
 - Learning **React, Spring Boot, Node.js, Agentic AI**  
-- Ask me about **Java, APIs, React, MySQL, Python, Node.js**  
+- Ask me about **Java, APIs, React, MySQL, Python**  
 - I prefer **learning by building real-world projects**  
 
 ![Profile Badge](https://img.shields.io/badge/Open%20Source-Contributor-blue?style=for-the-badge)
